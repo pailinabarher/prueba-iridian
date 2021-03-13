@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" id="styles" href="styles/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>We Speakers</title>
+</head>
+
+<body>
+    <header class="cabecera">
+        <img src="images/logo.png" alt="logo" id="logo">
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="hamburguesa-icon"> </span></label>
+
+        <nav class="menu-nav">
+            <section class="menu-1">
+                <ul class="menu">
+                    <li class="li-hover"> <a class="a-hover">HOME</a> </li>
+                    <li class="li-hover"> <a class="a-hover">SPEAKERS</a></li>
+                    <li class="li-hover"> <a class="a-hover"> EXPERIENCES</a></li>
+                    <li class="li-hover"> <a class="a-hover">CONTACT</a></li>
+                    <li class="li-hover"> <a class="a-hover">ABOUT</a></li>
+                    <li> <a><i class="fa fa-search" aria-hidden="true"></i></a> </li>
+                    <li class="li-hover"> <a><i class="fas fa-tasks"></i> MY LIST </a></li>
+                    <li class="toggle">
+                        <label class="submenu-icon" for="submenu-btn">
+                            <img class="banderas english" src="images/ingles.svg">
+                            <p id="plus">+</p>
+                        </label>
+                        <input class="btn-submenu" type="checkbox" id="submenu-btn" />
+
+                        <ul class="sub-menu">
+                            <li><img class="banderas spanish" src="images/spanish.svg"></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </section>
+        </nav>
+
+    </header>
+
+    <main id="principal">
+        <div>
+            <h1>Contact Us</h1>
+        </div>
+        <span id="line"> </span>
+
+    </main>
+
+    <section class="text-body">
+        <div id="contenedor-2">
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In libero
+                non erat aliquet porta a eget felis. Integer commodo nulla ut
+                purus gravida, sed scelerisque libero luctus. <span class="text color">Proin rhoncus hendre
+                    urna vel iaculis. Mauris nec rhoncus turpis.</span>
+            </p>
+            <br>
+            <p class="text">Ut molestie libero ac arcu vulputate interdum. Morbi eget fringilla
+                urna. Integer sodales interdum nunc.</p>
+            <br>
+
+            <div id="ubication">
+                <p>WE SPEAKERS BC INC. </p>
+                <p>3944 WILKINSON RD. VICTORIA, BC. V8Z 5A2</p>
+                <div class="line-2"> </div>
+
+                <div id="map">
+                    <br>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5952887857634!2d-74.05790958541867!3d4.666020096610652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a5f87c4a7ab%3A0x5c083a8e92aeaa3!2sChevignon%20Atlantis%20Plaza!5e0!3m2!1ses!2sco!4v1615431306801!5m2!1ses!2sco"
+                        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <br>
+                <p>Phone: +571 111 1000 00 </p>
+                <p>E-mail info@wespeakers.com </p>
+                <div class="line-2"> </div>
+                <br>
+            </div>
+        </div>
+        <div id="contenedor-form">
+
+            <form action="/form" method="post" id="form">
+                <ul id="list-form">
+                    <li class="item-lista">
+                        <label for="name" class="items-form">Name and surname</label>
+                        <input type="text" id="name" name="user_name" class="input" />
+                        <div id="errorboxname"></div>
+
+                    </li>
+                    <br>
+                    <li class="item-lista">
+                        <label for="mail" class="label-form">Your email address</label>
+                        <input type="text" id="email" name="user_mail" class="input" />
+                        <div id="errorBox"></div>
+
+                    </li>
+                    <br>
+                    <li class="item-lista">
+                        <label for="tel" class="label-form">Your phone number:</label>
+                        <input type="text" id= "phone" name="phone" class="input" />
+                        <div id="errorBoxtel"></div>
+                    </li>
+                    <br>
+                    <li class="item-lista">
+                        <label for="subject" class="label-form">Subject</label>
+                        <textarea id="subject" name="subject"></textarea>
+                    </li>
+                    <br>
+                    <li class="item-lista">
+                        <label for="msg" class="label-form">Mensaje:</label>
+                        <textarea id="msg" name="message"></textarea>
+                    </li>
+                    <br>
+                    <div id="errorSubject"></div>
+                    <li id="terms-li">
+                        <input id="check-terms" type="checkbox" name="check-terms" value="terminos" required
+                            class="imput">
+
+                        <label class="terms" for="check-terms"> Lorem ipsum dolor sit amet, consectetur Terms and
+                            conditions</label>
+                    </li>
+                    <br>
+                    
+                    <li id="button-list">
+                        <button type="submit" onclick="enviar();">SUBMIT</button>
+                    </li>
+                    <br>
+                </ul>
+            </form>
+        </div>
+        <br>
+        <div id="contenedor-redes">
+            <div class="circle-redes">
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+            <div class="circle-redes">
+                <i class="fab fa-twitter"></i>
+            </div>
+            <div class="circle-redes">
+                <i class="fab fa-facebook-f"></i>
+            </div>
+            <div class="circle-redes">
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </section>
+    <br>
+    <div id="space"></div>
+    <footer>
+        <div id="contenedor-footer">
+            <img src="images/logo.png" alt="logo" id="logo-footer">
+            <ul class="menu-footer">
+                <li class="footer-list"> <a class="a-hover">HOME</a> </li>
+                <li class="footer-list"> <a class="a-hover">SPEAKERS</a></li>
+                <li class="footer-list"> <a class="a-hover"> EXPERIENCES</a></li>
+                <li class="footer-list"> <a class="a-hover">CONTACT</a></li>
+                <li class="footer-list"> <a class="a-hover">ABOUT</a></li>
+            </ul>
+        </div>
+        <div class="contenedor-iasb">
+            <img src="images/iasb.png" alt="iasb member" id="iasb">
+        </div>
+        <div id="contenedor-palabras-footer">
+            <p> Member of the International Association of Speakers Bureaus</p>
+            <br>
+            <span id="line-footer"></span>
+            <br>
+            <p>Terms and Conditions - Privacy Policy</p>
+        </div>
+
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
