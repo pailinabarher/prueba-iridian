@@ -409,12 +409,19 @@ textarea {
 }
 
 #errorBox {
-@extend %error;
+    @extend %error;
 }
 
 #errorBoxtel {
     @extend %error;
-    }
+}
+
+#errorboxname {
+    @extend %error;
+}
+#errorSubject {
+    @extend %error;
+}
 
 #button-list {
     text-align: center;
@@ -546,7 +553,7 @@ footer {
     #form {
         width: 100%;
     }
-    
+
     #terms-li {
         margin-top: 20px;
         text-align: center;

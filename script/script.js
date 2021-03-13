@@ -15,18 +15,6 @@ function validateName(nameString) {
     return re.test(nameString);
 }
 
-// Instance object manually
-// var name = new Object();
-
-// Literal object instantiation
-// var name = {};
-
-// Instance regular expression
-// var reg = new RegExp("asdadad");
-
-// Literal regex instantiation
-// var reg = /asdasdasdasdasd/g;
-
 function enviar()
 {
     var errorBox = document.getElementById("errorBox");
@@ -112,3 +100,4 @@ function enviar()
 
     // send form to a server....
 }
+

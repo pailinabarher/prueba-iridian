@@ -85,7 +85,7 @@
         </div>
         <div id="contenedor-form">
 
-            <form action="/form" method="post" id="form">
+            <form action="/form"  id="form"  method="post" onsubmit="return verifyCheckbox()">
                 <ul id="list-form">
                     <li class="item-lista">
                         <label for="name" class="items-form">Name and surname</label>
@@ -120,7 +120,7 @@
                     <div id="errorSubject"></div>
                     <li id="terms-li">
                         <input id="check-terms" type="checkbox" name="check-terms" value="terminos" required
-                            class="imput">
+                            class="input">
 
                         <label class="terms" for="check-terms"> Lorem ipsum dolor sit amet, consectetur Terms and
                             conditions</label>

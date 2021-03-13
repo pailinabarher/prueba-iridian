@@ -27,7 +27,7 @@
   padding-right: 30px;
 }
 
-#errorBox, #errorBoxtel {
+#errorBox, #errorBoxtel, #errorboxname, #errorSubject {
   color: #ff9c00;
   font-weight: 600;
   font-size: 13px;
